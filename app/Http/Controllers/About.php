@@ -13,6 +13,5 @@ class About extends Controller
         $data['title'] = 'About Us | Cazaldo';
         $data['layout'] = 'frontend.about';
         return view( 'frontend.layout', $data);
-
     }
 }

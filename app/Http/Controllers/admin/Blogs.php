@@ -48,7 +48,6 @@ class Blogs extends Controller
       
             $test->data= $data;
             return json_encode($test);
-
     }
 
 
