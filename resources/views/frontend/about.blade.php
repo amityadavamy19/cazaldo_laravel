@@ -4,7 +4,7 @@
 				<div class="col-lg-12">
 					<div class="breadcroumb-title text-center">
 						<h1>Who We Are</h1>
-						<h6><a href="index.html">Home</a> / Who We Are</h6>
+						<h6><a href="{{ url('/')}}">Home</a> / Who We Are</h6>
 					</div>
 				</div>
 			</div>
@@ -25,7 +25,7 @@
 					<div class="about-content">
 						<h1 class="section-heading">INTRODUCTION</h1>
 						<p class="wow slideInUp text-justify" style="box-sizing: border-box; margin-top: 0px; margin-bottom: 20px; animation-name: slideInUp; font-size: 17px; line-height: 28px; color: rgb(119, 119, 119); font-family: Roboto, sans-serif; text-align: justify !important;">
-	M/s Kiara Bright is into online Dropshipping business, started their business in 2020. We are on a journey to transform individuals into successful entrepreneurs and enable businessmen to earn more. We do the individual&#39;s listing in an e-shop account as per the individual&#39;s budget.</p>
+	M/s Cazaldo Software came into website/software development business, started their business in 2020. We are on a journey to transform individuals into successful entrepreneurs and enable businessmen to earn more. We do the individual&#39;s listing in an e-shop account as per the individual&#39;s budget.</p>
 <p class="wow slideInUp text-justify" style="box-sizing: border-box; margin-top: 0px; margin-bottom: 20px; animation-name: slideInUp; font-size: 17px; line-height: 28px; color: rgb(119, 119, 119); font-family: Roboto, sans-serif; text-align: justify !important;">
 	We have partnered with M/s Glams Trading for strengthening our e-commerce vertical. M/s Glams Trading has been working successfully in the e-commerce platform and drop-ship the products since 2014. They have enabled more than 500 individuals to become entrepreneurs and their journey continues. We, as a team, do the individual&rsquo;s listing in an e-shop account as per the individual&rsquo;s budget. We have more than ONE LAKH products that we tag to registered members/ Sellers e-shop as per the requirement. Products are manufactured under the banner of Dhyan Dijiye and some are sourced from third party suppliers.</p>
 <p class="wow slideInUp text-justify" style="box-sizing: border-box; margin-top: 0px; margin-bottom: 20px; animation-name: slideInUp; font-size: 17px; line-height: 28px; color: rgb(119, 119, 119); font-family: Roboto, sans-serif; text-align: justify !important;">
@@ -105,12 +105,12 @@
 
 	
 	
-	<div id="facts" class="facts-main-block1">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<img src="assets/images/Launch-Dropshippin-wit-KB_1.png" class="img-fluid" width="100%">
-				</div>
-			</div>
-		</div>
-	</div>  
+	<!--<div id="facts" class="facts-main-block1">-->
+	<!--	<div class="container-fluid">-->
+	<!--		<div class="row">-->
+	<!--			<div class="col-lg-12 col-md-12 col-sm-12">-->
+	<!--				<img src="assets/images/Launch-Dropshippin-wit-KB_1.png" class="img-fluid" width="100%">-->
+	<!--			</div>-->
+	<!--		</div>-->
+	<!--	</div>-->
+	<!--</div>  -->

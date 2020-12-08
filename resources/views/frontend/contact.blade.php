@@ -10,15 +10,16 @@
 								<li>
 									<span class="fa-li"><i class="las la-home"></i></span>
 									<!--<span class="footer-address-dtl">GB-38, High Street Mall, Kapurbawdi,<br>Thane West-400601</span>-->
-									<span class="footer-address-dtl">Kiara Bright Workshala Spaces, D9, Sec 3, Noida, 201301</span>
+									<span class="footer-address-dtl">Cazaldo Software, Krishna Colony, Sector 73,
+Noida, 201301</span>
 								</li>
 								<li>
 									<span class="fa-li"><i class="las la-envelope"></i></span>
-									<span class="footer-address-dtl"><a href="mailto:info@kairabright.in">info@kairabright.in</a></span>
+									<span class="footer-address-dtl"><a href="mailto:info@cazaldo.in">info@cazaldo.in</a></span>
 								</li>
 								<li>
 									<span class="fa-li"><i class="las la-phone"></i></span>
-									<span class="footer-address-dtl"><a href="tel:+91 9310264956">+91 9310264956</a></span>
+									<span class="footer-address-dtl"><a href="tel:+91 9015548748">+91 9015548748</a></span>
 								</li>
 							</ul>
 						</div>
@@ -30,15 +31,27 @@
 			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="question-section">
 					<h2>Enquiry Form</h2>
-					<form method="post" class="enquiry-form" onSubmit="return submitEnquiry('enquiry-form','error_msg','enqSubmit')">
-						<input type="text" name="name" id="name" pattern="([^\s][A-zÀ-ž\s]+)" required="" placeholder="Full Name*">
-						<input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required="" placeholder="E-mail*">
-						<input type="text" name="phone" id="phone" pattern="^[6-9]\d{9}$" maxlength="10" required="" placeholder="Phone*">
-						<textarea name="message" id="message" cols="30" rows="10" required="" placeholder="How can we help you?*"></textarea>
-						<div class="g-recaptcha" data-sitekey="6LfOMMEZAAAAAFFwpwOdqmdPgIXK7cmLTDMluO5t" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
-						<input type="hidden" name="form_type" value="1">
-						<div class="error_msg"></div>
-						<button class="btn btn-primary" type="submit" name="submit" id="enqSubmit">Submit</button>
+					  <div class="alert alert-success alert-block" style="display: none;">
+
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+
+                      <strong class="success-msg"></strong>
+
+                </div>
+
+					 {!! Form::open(['url' => 'contact/submitReq','files'=>'true','id'=>"enqform"]) !!}
+					  
+						<input type="text" name="name" id="name" pattern="([^\s][A-zÀ-ž\s]+)"  placeholder="Full Name*">
+						 <span class="text-danger error-text name_err"></span>
+						<input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail*">
+						 <span class="text-danger error-text email_err"></span>
+						<input type="text" name="phone" id="phone" pattern="^[6-9]\d{9}$" maxlength="10" placeholder="Phone*">
+						 <span class="text-danger error-text phone_err"></span>
+						<textarea name="message" id="message" cols="30" rows="10" placeholder="How can we help you?*"></textarea>
+						<span class="text-danger error-text message_err"></span>
+					
+						<button class="btn btn-primary btn-submit" type="submit" name="submit" id="enqSubmit">Submit</button>
+						<span id="enqError"></span>
 					</form>
 				</div>
 			</div>
@@ -57,3 +70,5 @@
 		</div>
 	</div>
 </div>  
+
+    

@@ -2,9 +2,8 @@
 	<!-- end head -->
     <!-- body start-->
 
-
-		<div id="home-slider" class="home-main-block owl-carousel">
-				<div class="item home-slider-bg" style="background-image: url('img/banner/banner2aa_1597823218.jpg')">
+	<div id="home-slider" class="home-main-block owl-carousel">
+				<div class="item home-slider-bg" style="background-image: url('assets/images/banner/bg_1.png')">
 			<div class="overlay-bg1"></div>
 			<div class="container">
 				<div class="row">
@@ -23,8 +22,20 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- <div class="item home-slider-bg" style="background-image: url('assets/images/banner/banner2aa_1597823218.jpg')">
+			<div class="overlay-bg1"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-md-10">
+						<div class="slider-dtl">
+							
+						</div>
+					</div>
+				</div>
 			</div>
-		<!-- home slider end-->
+		</div> -->
+			</div>
 	
 		
 	
@@ -34,7 +45,7 @@
 	<div class="container">
 		<div class="section text-center">
 			<h1 class="section-heading">
-				How does <span style="color:#ED3237;">Kiara Bright</span> work?</h1>
+				How does <span style="color:#ED3237;">Cazaldo Software</span> work?</h1>
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-12">
@@ -42,14 +53,14 @@
 					<div class="row">
 						<div class="col-lg-2 col-md-12 col-sm-12">
 							<div class="about-icon">
-								<img class="img-fluid" src="assets/images/work-icon/zero.png" /></div>
+								<img class="img-fluid" src="assets/images/work-icon/rec.png" /></div>
 						</div>
 						<div class="col-lg-10 col-md-12 col-sm-12">
 							<div class="about-sub-heading">
 								<h4 class="about-heading why-gt-sub-heading">
-									Zero investment with no rental charges</h4>
+									Requirement Analysis</h4>
 								<p>
-									A warehouse is not required. We will take care of each product efficiently.</p>
+									Taking the rough ideas, making a blueprint and implementation.</p>
 							</div>
 						</div>
 					</div>
@@ -58,14 +69,30 @@
 					<div class="row">
 						<div class="col-lg-2 col-md-12 col-sm-12">
 							<div class="about-icon">
-								<img class="img-fluid" src="assets/images/work-icon/no-inventory.png" /></div>
+								<img class="img-fluid" src="assets/images/work-icon/dev.png" /></div>
 						</div>
 						<div class="col-lg-10 col-md-12 col-sm-12">
 							<div class="about-sub-heading">
 								<h4 class="about-heading why-gt-sub-heading">
-									No requirement of Inventory</h4>
+									Development</h4>
 								<p>
-									Managing stock is not required. Download the sheet and synchronize it with us.</p>
+									Implenting business logic with the UI/UX. Bundling the modules on a single stack.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about-dtl">
+					<div class="row">
+						<div class="col-lg-2 col-md-12 col-sm-12">
+							<div class="about-icon">
+								<img class="img-fluid" src="assets/images/work-icon/testing.png" /></div>
+						</div>
+						<div class="col-lg-10 col-md-12 col-sm-12">
+							<div class="about-sub-heading">
+								<h4 class="about-heading why-gt-sub-heading">
+									Product Testing</h4>
+								<p>
+									Releasing the beta build for testing and fixing bugs. </p>
 							</div>
 						</div>
 					</div>
@@ -79,23 +106,7 @@
 						<div class="col-lg-10 col-md-12 col-sm-12">
 							<div class="about-sub-heading">
 								<h4 class="about-heading why-gt-sub-heading">
-									Packaging is manageable</h4>
-								<p>
-									We believe in offering high-security labeled packaging solution so that no mistake could occur.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="about-dtl">
-					<div class="row">
-						<div class="col-lg-2 col-md-12 col-sm-12">
-							<div class="about-icon">
-								<img class="img-fluid" src="assets/images/work-icon/sell-your-product.png" /></div>
-						</div>
-						<div class="col-lg-10 col-md-12 col-sm-12">
-							<div class="about-sub-heading">
-								<h4 class="about-heading why-gt-sub-heading">
-									Sell your products with us</h4>
+									Product Delivery</h4>
 								<p>
 									You have to sell your products, rest we will take care of everything.</p>
 							</div>
@@ -104,7 +115,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
-				<img alt="about-img" class="img-fluid" src="assets/images/2.png" /></div>
+				<img alt="about-img" class="img-fluid" src="assets/images/sdlc_img.png" /></div>
 		</div>
 	</div>
 </div>
@@ -128,14 +139,14 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 					<img alt="about-img" class="img-fluid" src="assets/images/how-img/signup.png" />
 					<p class="how-tostart-text">
-						Sign up for a<br />
-						free account</p>
+						Send an enquiry<br />
+						for Services</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 					<img alt="about-img" class="img-fluid" src="assets/images/how-img/choose-product.png" />
 					<p class="how-tostart-text">
-						Review and Choose<br />
-						products at Kiara Bright</p>
+					    Design your<br />
+						imagination  at Cazaldo</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 					<img alt="about-img" class="img-fluid" src="assets/images/how-img/start-selling.png" />
@@ -152,7 +163,7 @@
 		</div>
 	</div>
 		
-		<div id="facts" class="facts-main-block1" style=" padding: 80px 0px;">
+		<!-- <div id="facts" class="facts-main-block1" style=" padding: 80px 0px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
@@ -160,149 +171,65 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 		
 		
 	
 	<div id="service-detail" class="services-main-block-3">
 		<div class="container">
 			<div class="section text-center">
-				<h1 class="section-heading">POPULAR PRODUCTS</h1>
+				<h1 class="section-heading">OUR SERVICES</h1>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="services-block-2 prod-block">
 						<div class="services-img product-img-gt">
-							<a href="#" title="Delight Alto Full M.S. Body Gas Lighter"><img src="assets/images/product/1.jpg" class="img-fluid-img" alt="Delight Alto Full M.S. Body Gas Lighter"></a>
+							<a href="#" title="Software Development"><img src="assets/images/product/software_dev.jpg" class="img-fluid-img" alt="software_dev"></a>
 						</div>
 						<div class="services-dtl-2 prod-name-pd">
 							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Delight Alto Full M.S. Body Gas Lighter</p>
+							<p class="prod-name">Software Development</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="services-block-2 prod-block">
 						<div class="services-img product-img-gt">
-							<a href="#" title="Delight Chopping Board"><img src="assets/images/product/2.jpg" class="img-fluid-img" alt="Delight Chopping Board"></a>
+							<a href="#" title="Mobile App Development"><img src="assets/images/product/mobile_app.jpg" class="img-fluid-img" alt="Mobile App Development"></a>
 						</div>
 						<div class="services-dtl-2 prod-name-pd">
 							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Delight Chopping Board</p>
+							<p class="prod-name">Mobile App Development</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="services-block-2 prod-block">
 						<div class="services-img product-img-gt">
-							<a href="#" title="Delight Deluxe Beater"><img src="assets/images/product/3.jpg" class="img-fluid-img" alt="Delight Deluxe Beater"></a>
+							<a href="#" title="Web Design"><img src="assets/images/product/web_design.jpg" class="img-fluid-img" alt="Web Design"></a>
 						</div>
 						<div class="services-dtl-2 prod-name-pd">
 							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Delight Deluxe Beater</p>
+							<p class="prod-name">Web Design</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="services-block-2 prod-block">
 						<div class="services-img product-img-gt">
-							<a href="#" title="Wonderchef Blueberry Set"><img src="assets/images/product/4.jpg" class="img-fluid-img" alt="Wonderchef Blueberry Set"></a>
+							<a href="#" title="Searh Engine Marketing"><img src="assets/images/product/social_image.jpg" class="img-fluid-img" alt="Wonderchef Blueberry Set"></a>
 						</div>
 						<div class="services-dtl-2 prod-name-pd">
 							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Wonderchef Blueberry Set</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Kids Bus Shaped Storage Seat"><img src="assets/images/product/5.jpg" class="img-fluid-img" alt="Kids Bus Shaped Storage Seat"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Kids Bus Shaped Storage Seat</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Wonderchef Reva Flat Dosa Tawa 280 MM"><img src="assets/images/product/6.jpg" class="img-fluid-img" alt="Wonderchef Reva Flat Dosa Tawa 280 MM"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Wonderchef Reva Flat Dosa Tawa 280 MM</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Wonderchef Turbo Dual Speed Food Processor"><img src="assets/images/product/7.jpg" class="img-fluid-img" alt="Wonderchef Turbo Dual Speed Food Processor"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Wonderchef Turbo Dual Speed Food Processor</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Set of 6 Travel Cubes"><img src="assets/images/product/8.jpg" class="img-fluid-img" alt="Set of 6 Travel Cubes"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Set of 6 Travel Cubes</p>
+							<p class="prod-name">Searh Engine Marketing</p>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Designer Soft TPU Fancy Back Cover for MI REDMI 7"><img src="assets/images/product/9.jpg" class="img-fluid-img" alt="Designer Soft TPU Fancy Back Cover for MI REDMI 7"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Designer Soft TPU Fancy Back Cover for MI REDMI 7</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Waterproof Family Travel Toiletery Kit"><img src="assets/images/product/10.jpg" class="img-fluid-img" alt="Waterproof Family Travel Toiletery Kit"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Waterproof Family Travel Toiletery Kit</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="ROR Men's Slim Fit Jeans Size-28"><img src="assets/images/product/11.jpg" class="img-fluid-img" alt="ROR Men's Slim Fit Jeans Size-28"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">ROR Men's Slim Fit Jeans Size-28</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="services-block-2 prod-block">
-						<div class="services-img product-img-gt">
-							<a href="#" title="Wonderchef Turbo Dual Speed Food Processor"><img src="assets/images/product/12.jpg" class="img-fluid-img" alt="Wonderchef Turbo Dual Speed Food Processor"></a>
-						</div>
-						<div class="services-dtl-2 prod-name-pd">
-							<!--<h4 class="services-heading"><a href="#" title="standard courier">Standard Courier</a></h4>-->
-							<p class="prod-name">Sheetal- Angular Stop Cock Push Type Faucet With Wall Flange</p>
-						</div>
-					</div>
-				</div>
+				
+				
+				
+				
 			</div>
 		</div>
 	</div>
@@ -312,7 +239,7 @@
 		<div class="overlay-bg"></div>
 		<div class="container">
 			<div class="section text-center">
-				<h1 class="section-heading">DROPSHIPPING ENQUIRY FORM</h1>
+				<h1 class="section-heading">DESIGN ENQUIRY FORM</h1>
 			</div>
 			<div class="quotation-block">
 				<form class="quotation-form" method="post" onSubmit="return submitEnquiry('quotation-form', 'error_msg', 'quotationSubmit')">
@@ -366,7 +293,7 @@
 					</div>
 				</form>
 				<div class="quotation-dtl text-white">
-					<p>We are available Mon-Fri during regular business hours. <a href="mailto:info@kiarabright.in" title="email" style="color:#000"> info@kiarabright.in</a> </p>
+					<p>We are available Mon-Sat during regular business hours. <a href="mailto:info@cazaldo.com" title="email" style="color:#000"> info@cazaldo.com</a> </p>
 				</div>
 			</div>
 		</div>
@@ -378,23 +305,23 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="section text-center">
-						<h1 class="section-heading">Our Partners for Products & Services</h1>
+						<h1 class="section-heading">Our Clients</h1>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-12 col-sm-12"></div>
 				<div class="col-lg-2 col-md-4 col-sm-12">
 					<div class="img-outline">
-						<img src="assets/images/partner/Logo_web.jpg" class="img-fluid-img">
+						<img src="assets/images/partner/client1.png" class="img-fluid-img">
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-sm-12">
 					<div class="img-outline">
-						<img src="assets/images/partner/DhyanDijiye_2_600x.webp" class="img-fluid-img" style="height:69px;">
+						<img src="assets/images/partner/client2.png" class="img-fluid-img" style="height:69px;">
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-sm-12">
 					<div class="img-outline">
-						<img src="assets/images/partner/firstclick_1.png" class="img-fluid-img">
+						<img src="assets/images/partner/client_3.png" class="img-fluid-img" style="height:69px;">
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-12 col-sm-12"></div>

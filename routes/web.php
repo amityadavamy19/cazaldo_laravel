@@ -26,6 +26,9 @@ Route::get('noaccess', function () {
     return view('error/noaccess');
 });
 
+
+//Admin Routes
+
 Route::get('/admin/login','App\Http\Controllers\admin\AdminLogin@index');
 Route::get('/admin/dashboard','App\Http\Controllers\admin\Users@dashboard')->name('admin/dashboard');
 
@@ -40,6 +43,12 @@ Route::post('/admin/addNewBlog','App\Http\Controllers\admin\Blogs@addNewBlog')->
 Route::post('/admin/editBlog','App\Http\Controllers\admin\Blogs@editBlog')->name('editBlog');
 Route::get('/admin/editOld/{id}','App\Http\Controllers\admin\Blogs@editOld');
 Route::get('/admin/editBlog/{id}','App\Http\Controllers\admin\Blogs@editBlog');
+
+//Ajax Routes
+
+
+
+Route::post('/contact/submitReq','App\Http\Controllers\Contact@processRequest')->name('ajax.request.process');
 
 
 

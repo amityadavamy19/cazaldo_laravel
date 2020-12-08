@@ -6,7 +6,7 @@
 					<div class="col-lg-2 col-md-12">
 						<!--logo-->
 						<div class="logo">
-							<a href="{{ url()->full()}}" title="logo"><img src="{{ asset('assets/images/caz_logo.png') }}" alt="logo"></a>
+							<a href="{{ url('/') }}" title="logo"><img src="{{ asset('assets/images/caz_logo.png') }}" alt="logo"></a>
 						</div>
 						<!-- Responsive Menu Area -->
 						<div class="responsive-menu-wrap"></div>
@@ -17,7 +17,7 @@
 						<div class="navigation text-white">
 							<div id="cssmenu">
 								<ul>
-									<li class="active"><a href="{{ url()->full()}}" title="Home">Home</a></li>
+									<li class="active"><a href="{{  url('/') }}" title="Home">Home</a></li>
 									<li><a href="{{ url('who-we-are/')}}" title="Who we are?">Who we are?</a></li>
 									<li><a href="{{ url('why-cazaldo/')}}" title="WHY CZ">Why Cazaldo?</a></li>
 									<li><a href="{{ url('services/')}}" title="PRODUCT CATALOG">Services</a></li>
