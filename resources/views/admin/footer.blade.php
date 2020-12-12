@@ -92,6 +92,8 @@
         <!-- Page JS Plugins -->
         <script src="{{ asset('assets/admin/js/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
         <script src="{{ asset('assets/admin/js/plugins/chart.js/Chart.bundle.min.js') }}"></script>
+        <script src="{{ asset('assets/admin/js/jquery.validate.js') }}"></script>
+        <script src="{{ asset('assets/admin/js/validation.js') }}"></script>
 
         <!-- Page JS Code -->
         <script src="{{ asset('assets/admin/js/pages/be_pages_dashboard.min.js') }}"></script>

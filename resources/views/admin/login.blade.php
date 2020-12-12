@@ -28,28 +28,33 @@
                             <!-- END Header -->
 
                             <!-- Sign In Form -->
-                            <!-- jQuery Validation (.js-validation-signin class is initialized in js/pages/op_auth_signin.min.js which was auto compiled from _js/pages/op_auth_signin.js) -->
-                            <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
- 
-                             @if(session()->has('message'))
-                             <p class="alert alert-info">{{ session()->get('message') }}</p>
-                           
-                            @endif 
                             
+                         
+                           @if(session()->has('message'))
+                           <span style="color:red;">{{ session()->get('message')}}*</span>
+                           @endif
+
+                           @if(session()->has('error'))
+                           <span style="color:red;">{{ session()->get('error')}}*</span>
+                           @endif
                             
-                            <form class="js-validation-signin" action="{{ route('LoginMe') }}" method="POST">
-                            {{@csrf_field()}}
+                           @if(session()->has('success'))
+                           <span style="color:green;">{{ session()->get('success')}}*</span>
+                           @endif
+
+                            <form class="js-validation-signin" action="/admin/LoginMe" method="POST">
+                            @csrf
                                 <div class="py-3">
                                     <div class="form-group">
                                         <input type="text" class="form-control form-control-lg form-control-alt" id="name" name="email" placeholder="Username/email">
-                                        @error('name')
-                                        <span>{{$message}}</span>
+                                        @error('email')
+                                        <span style="color:red;">{{$message}}</span>
                                         @enderror
                                     </div>
                                     <div class="form-group">
                                         <input type="password" autocomplete="false" class="form-control form-control-lg form-control-alt" id="password" name="password" placeholder="Password">
                                         @error('password')
-                                        <span>{{$message}}</span>
+                                        <span style="color:red;">{{$message}}</span>
                                         @enderror
                                     </div>
                                     <div class="form-group">
@@ -59,7 +64,7 @@
                                                 <label class="custom-control-label font-w400" for="login-remember">Remember Me</label>
                                             </div>
                                             <div class="py-2">
-                                                <a class="font-size-sm font-w500" href="#">Forgot Password?</a>
+                                                <a class="font-size-sm font-w500" href="{{route('forgotPassword')}}">Forgot Password?</a>
                                             </div>
                                         </div>
                                     </div>
@@ -78,5 +83,8 @@
                 </div>
             </div>
             <!-- END Sign In Section -->
+            </div>
 
+ </div>
+</main>
                         @include('admin/footer')

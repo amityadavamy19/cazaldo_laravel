@@ -76,7 +76,6 @@
                         <!-- END Options -->
 
                         <!-- Close Sidebar, Visible only on mobile screens -->
-                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
                         <a class="d-lg-none btn btn-sm btn-dual ml-1" data-toggle="layout" data-action="sidebar_close" href="javascript:void(0)">
                             <i class="fa fa-fw fa-times"></i>
                         </a>
@@ -106,12 +105,12 @@
                                 </a>
                                 <ul class="nav-main-submenu">
                                     <li class="nav-main-item">
-                                        <a class="nav-main-link" href="{{ route('addBlog')}}">
+                                        <a class="nav-main-link" href="{{ route('addSlider')}}">
                                             <span class="nav-main-link-name">Add</span>
                                         </a>
                                     </li>
                                     <li class="nav-main-item">
-                                        <a class="nav-main-link" href="{{ route('viewBlogs')}}">
+                                        <a class="nav-main-link" href="{{ route('viewSliders')}}">
                                             <span class="nav-main-link-name">View</span>
                                         </a>
                                     </li>
@@ -129,7 +128,7 @@
                                 <ul class="nav-main-submenu">
                                     
                                     <li class="nav-main-item">
-                                        <a class="nav-main-link" href="{{ route('viewBlogs')}}">
+                                        <a class="nav-main-link" href="{{ route('editContactus')}}">
                                             <span class="nav-main-link-name">View</span>
                                         </a>
                                     </li>

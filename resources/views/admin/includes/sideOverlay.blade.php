@@ -62,11 +62,8 @@
                                     <p class="mb-0 text-white-50 font-size-sm">Super Admin</p>
                                 </div>
                                 <div class="p-2">
-                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                        <span class="font-size-sm font-w500">Inbox</span>
-                                        <span class="badge badge-pill badge-primary ml-2">3</span>
-                                    </a>
-                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="#">
+                                   
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="{{ route('admProfile')}}">
                                         <span class="font-size-sm font-w500">Profile</span>
                                         <span class="badge badge-pill badge-primary ml-2">1</span>
                                     </a>
